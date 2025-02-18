@@ -1,0 +1,24 @@
+body {
+    background: #60b0bb;
+    
+}
+
+#titulo {
+     background: #00d6f3;
+}
+#about {
+    background: white;
+}
+/*cajas*/
+#toughts {
+    background: grey;
+}
+#programming {
+    background:grey;
+}
+#tools {
+    background: grey;
+}
+#hobbies{
+    background: grey;
+}
