@@ -1,24 +1,86 @@
+/* Estilo base */
 body {
-    background: #60b0bb;
-    
+    background-image: url("Extra_pages/images/purple.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #titulo {
-     background: #00d6f3;
+    background:rgba(75, 0, 71, 0.575);
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    display:flex;
+    
+}
+#welcome {
+    padding-left: 50px;
+
+}
+#instagram {
+    width: 80px;
+    height: 80px;
+    padding-left: 70%;
+    display: flex;
+}
+#spotify {
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+    display: flex;
 }
 #about {
-    background: white;
+    background-color: rgb(33, 2, 61);
+    text-align: center;
+    font-size: larger;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+    
 }
-/*cajas*/
-#toughts {
-    background: grey;
+.texto {
+    font-size: 25px;
+    padding:10px;
+
+
 }
-#programming {
-    background:grey;
+
+/* Contenedor para las cajas */
+.contenedor-cajas {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra las cajas horizontalmente */
+    gap: 20px; /* Espacio entre las cajas */
+    margin-top: 80px; /* Margen superior */
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan si no caben */
+
 }
-#tools {
-    background: grey;
-}
-#hobbies{
-    background: grey;
+
+/* Estilo base para las cajas */
+.caja {
+    background-image: url("Extra_pages/images/animation.gif");
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
 }
